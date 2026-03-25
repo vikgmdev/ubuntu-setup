@@ -1,0 +1,15 @@
+# Chrome profile definitions
+# Format: key|original_profile_dir|email|label|color_light|color_mid|color_dark
+#
+# - key: unique identifier (used for data dir, desktop file, icon name)
+# - original_profile_dir: Chrome's internal profile dir name (Default, Profile 1, Profile 2, etc.)
+# - email: Google account email (for the desktop entry comment)
+# - label: display name for the dock icon
+# - color_light/mid/dark: hex colors for the Chrome-style icon (3 shades)
+#
+# Copy this file to profiles.conf and edit with your own accounts:
+#   cp profiles.conf.example profiles.conf
+#
+chrome-work|Default|you@company.com|Work|#93b4f5|#4285F4|#1a56c4
+chrome-personal|Profile 1|you@gmail.com|Personal|#7bc694|#34A853|#1e7a35
+chrome-side|Profile 2|you@side-project.com|Side Project|#ffab66|#FF6D00|#cc5700
